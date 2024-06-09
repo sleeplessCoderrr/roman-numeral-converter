@@ -74,13 +74,18 @@ body{
 
 #container .converter button{
     width: 110%;
-    height: 30px;
+    height: 40px;
     border: 1px solid var(--light);
     border-radius: 5px;
     padding: 10px;
     text-align: center;
     justify-content: center;
-    background-color: var(--green);
+    background-color: var(--blue);
     color: var(--dark);
     margin-bottom: 10px;
+}
+
+#container .converter button:hover{
+    background-color: var(--green);
+    color: var(--light);
 }
