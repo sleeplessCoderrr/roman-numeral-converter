@@ -89,3 +89,21 @@ body{
     background-color: var(--green);
     color: var(--light);
 }
+
+#container .result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border: 1px solid var(--dimmedLight);
+    border-radius: 5px;
+    padding: 5px 140px;
+}
+
+#container .result .message{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 10px;
+}
